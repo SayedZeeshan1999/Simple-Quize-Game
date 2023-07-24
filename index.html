@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="title">
+        <h1>HTML MCQ's</h1>
+    </div>
+
+    <div class="question-1">
+        1) HTML stand for? <br>
+        <br>
+        <input type="radio" name="q1" id="correct1">
+        HyperText Markup Language<br>
+        <input type="radio" name="q1">HighText Machine Language<br>
+        <input type="radio" name="q1">HighText Machine Language<br>
+        <input type="radio" name="q1">None of these<br>
+
+    </div>
+    <div class="question-2">
+        2) The correct sequence of HTML tags for starting a webpage is - <br><br>
+        <input type="radio" name="q2">Head, Title, HTML, body<br>
+        <input type="radio" name="q2" id="correct2">HTML, Head, Title, Body<br>
+        <input type="radio" name="q2">HTML, Body, Title, Head<br>
+        <input type="radio" name="q2">HTML, Body, Title, Head<br>
+
+    </div>
+
+    <div class="question-3">
+        3) An HTML program is saved by using the ____ extension. <br><br>
+        <input type="radio" name="q3">.ht
+        <br>
+        <input type="radio" name="q3">.hml<br>
+        <input type="radio" name="q3" id="correct3">.html
+        <br>
+        <input type="radio" name="q3">None of the above<br>
+
+    </div>
+
+    <div class="question-4">
+        4) Which of the following attribute is used to provide a unique name to an element?<br><br>
+        <input type="radio" name="q4">class<br>
+        <input type="radio" name="q4">tag<br>
+        <input type="radio" name="q4">type<br>
+        <input type="radio" name="q4" id="correct4">id<br>
+
+    </div>
+    <div class="btn">
+        <input type="submit" value="submit" name="submitbtn" onclick="result()">
+    </div>
+    </div>
+
+
+    <script>
+        function result() {
+            var score = 0;
+            if (document.getElementById("correct1").checked) {
+                score++;
+            }
+            if (document.getElementById("correct2").checked) {
+                score++;
+            }
+            if (document.getElementById("correct3").checked) {
+                score++;
+            }
+            if (document.getElementById("correct4").checked) {
+                score++;
+            }
+            alert('your score is:' + score)
+        }
+    </script>
+</body>
+
+</html>

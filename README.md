@@ -1,1 +1,1 @@
-# Simple-Quize-Game
+# quiz_game
